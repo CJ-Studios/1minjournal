@@ -63,32 +63,194 @@ export default function Home() {
         <div className="relative z-10 text-center text-white px-6 max-w-7xl mx-auto">
           <div className="mb-12 cinematic-entry">
             <h1 className="text-cinematic text-glow mb-8">
-              Your Mind.<br/>
-              <span className="text-blue-300">Unlocked.</span><br/>
-              In 60 Seconds.
+              Reflect Daily<br/>
+              <span className="text-blue-300">with the 60-Second Journaling App</span>
             </h1>
             
             <p className="text-cinematic-sub text-white/90 max-w-4xl mx-auto mb-12">
-              What if the most powerful thing you could do for your mental health, clarity, and self-awareness took less time than brushing your teeth?
+              Big Reflections. Small Commitment: 60 Seconds. Build life-changing self-awareness in less time than brushing your teeth – one meaningful sentence that captures your entire day.
             </p>
           </div>
 
-          {/* Floating App Preview */}
-          <div className="card-cinematic max-w-lg mx-auto p-8 mb-16 cinematic-entry">
-            <div className="text-sm text-white/60 mb-3">Today's breakthrough:</div>
-            <div className="text-xl text-white italic mb-6 leading-relaxed">
-              "Finally understood why I've been feeling anxious - it's not about the work, it's about not setting boundaries."
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">💡</span>
-                <span className="text-white/80">Insight</span>
+          {/* Scrolling Journal Cards */}
+          <div className="journal-scroll-container mb-16 cinematic-entry">
+            <div className="journal-cards-row">
+              {/* First set of cards */}
+              <div className="journal-card">
+                <div className="journal-emoji">😌</div>
+                <div className="journal-date">
+                  Feb 3, 2024
+                </div>
+                <div className="journal-text">
+                  "Finally asked my boss for help instead of suffering alone."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Relief</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot"></div>
+                  </div>
+                </div>
               </div>
-              <div className="flex space-x-1">
-                {[...Array(4)].map((_, i) => (
-                  <div key={i} className="w-2 h-2 rounded-full bg-blue-400"></div>
-                ))}
-                <div className="w-2 h-2 rounded-full bg-white/30"></div>
+
+              <div className="journal-card">
+                <div className="journal-emoji">💪</div>
+                <div className="journal-date">
+                  Feb 17, 2024
+                </div>
+                <div className="journal-text">
+                  "Set boundaries with Mom - uncomfortable but necessary."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Proud</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot"></div>
+                    <div className="energy-dot"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="journal-card">
+                <div className="journal-emoji">💡</div>
+                <div className="journal-date">
+                  Mar 9, 2024
+                </div>
+                <div className="journal-text">
+                  "Sunday anxiety = Monday dread. Time to prep better."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Insight</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="journal-card">
+                <div className="journal-emoji">🤔</div>
+                <div className="journal-date">
+                  Apr 14, 2024
+                </div>
+                <div className="journal-text">
+                  "Said no to drinks tonight - friends actually understood."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Surprised</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot"></div>
+                    <div className="energy-dot"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="journal-card">
+                <div className="journal-emoji">🎉</div>
+                <div className="journal-date">
+                  Jun 1, 2024
+                </div>
+                <div className="journal-text">
+                  "Prevented burnout by recognizing my warning signs early."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Victory</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Duplicate set for seamless loop */}
+              <div className="journal-card">
+                <div className="journal-emoji">😌</div>
+                <div className="journal-date">
+                  Feb 3, 2024
+                </div>
+                <div className="journal-text">
+                  "Finally asked my boss for help instead of suffering alone."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Relief</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="journal-card">
+                <div className="journal-emoji">💪</div>
+                <div className="journal-date">
+                  Feb 17, 2024
+                </div>
+                <div className="journal-text">
+                  "Set boundaries with Mom - uncomfortable but necessary."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Proud</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot"></div>
+                    <div className="energy-dot"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="journal-card">
+                <div className="journal-emoji">💡</div>
+                <div className="journal-date">
+                  Mar 9, 2024
+                </div>
+                <div className="journal-text">
+                  "Sunday anxiety = Monday dread. Time to prep better."
+                </div>
+                <div className="journal-mood">
+                  <div className="mood-indicator">
+                    <span>Insight</span>
+                  </div>
+                  <div className="energy-dots">
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                    <div className="energy-dot filled"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -348,7 +510,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="section-dark py-16">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-12 text-white">
             <div>
               <h3 className="font-bold text-2xl mb-4 text-blue-400">1 Min Journal</h3>
