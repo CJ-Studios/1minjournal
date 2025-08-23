@@ -95,7 +95,7 @@ export default function Home() {
                   Feb 3, 2024
                 </div>
                 <div className="journal-text">
-                  "Finally asked my boss for help instead of suffering alone."
+                  &ldquo;Finally asked my boss for help instead of suffering alone.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -117,7 +117,7 @@ export default function Home() {
                   Feb 17, 2024
                 </div>
                 <div className="journal-text">
-                  "Set boundaries with Mom - uncomfortable but necessary."
+                  &ldquo;Set boundaries with Mom - uncomfortable but necessary.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -139,7 +139,7 @@ export default function Home() {
                   Mar 9, 2024
                 </div>
                 <div className="journal-text">
-                  "Sunday anxiety = Monday dread. Time to prep better."
+                  &ldquo;Sunday anxiety = Monday dread. Time to prep better.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -161,7 +161,7 @@ export default function Home() {
                   Apr 14, 2024
                 </div>
                 <div className="journal-text">
-                  "Said no to drinks tonight - friends actually understood."
+                  &ldquo;Said no to drinks tonight - friends actually understood.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -183,7 +183,7 @@ export default function Home() {
                   Jun 1, 2024
                 </div>
                 <div className="journal-text">
-                  "Prevented burnout by recognizing my warning signs early."
+                  &ldquo;Prevented burnout by recognizing my warning signs early.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -206,7 +206,7 @@ export default function Home() {
                   Feb 3, 2024
                 </div>
                 <div className="journal-text">
-                  "Finally asked my boss for help instead of suffering alone."
+                  &ldquo;Finally asked my boss for help instead of suffering alone.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -228,7 +228,7 @@ export default function Home() {
                   Feb 17, 2024
                 </div>
                 <div className="journal-text">
-                  "Set boundaries with Mom - uncomfortable but necessary."
+                  &ldquo;Set boundaries with Mom - uncomfortable but necessary.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -250,7 +250,7 @@ export default function Home() {
                   Mar 9, 2024
                 </div>
                 <div className="journal-text">
-                  "Sunday anxiety = Monday dread. Time to prep better."
+                  &ldquo;Sunday anxiety = Monday dread. Time to prep better.&rdquo;
                 </div>
                 <div className="journal-mood">
                   <div className="mood-indicator">
@@ -368,15 +368,15 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="border-l-4 border-yellow-400 pl-6 py-3">
                   <div className="text-sm text-white/50 mb-2">Day 1: Confused</div>
-                  <p className="text-white text-lg">"I don't know why I'm so tired all the time, nothing makes sense anymore..."</p>
+                  <p className="text-white text-lg">&ldquo;I don&apos;t know why I&apos;m so tired all the time, nothing makes sense anymore...&rdquo;</p>
                 </div>
                 <div className="border-l-4 border-blue-400 pl-6 py-3">
                   <div className="text-sm text-white/50 mb-2">Day 15: Discovering</div>
-                  <p className="text-white text-lg">"Wait, I feel tired after every meeting with Sarah - maybe it's not me, it's the dynamic?"</p>
+                  <p className="text-white text-lg">&ldquo;Wait, I feel tired after every meeting with Sarah - maybe it&apos;s not me, it&apos;s the dynamic?&rdquo;</p>
                 </div>
                 <div className="border-l-4 border-green-400 pl-6 py-3">
                   <div className="text-sm text-white/50 mb-2">Day 30: Breakthrough</div>
-                  <p className="text-white text-lg">"Set boundaries with Sarah today. Feel energized for the first time in weeks!"</p>
+                  <p className="text-white text-lg">&ldquo;Set boundaries with Sarah today. Feel energized for the first time in weeks!&rdquo;</p>
                 </div>
               </div>
             </div>
@@ -394,7 +394,7 @@ export default function Home() {
 
           <div className="card-cinematic bg-white border-gray-200 p-12 mb-16 dramatic-scale">
             <blockquote className="text-2xl text-gray-700 italic mb-8 leading-relaxed">
-              "I went from someone who couldn't understand their own emotions to someone who can predict my mood patterns and proactively take care of my mental health. This app didn't just change my journaling - it changed my life."
+              &ldquo;I went from someone who couldn&apos;t understand their own emotions to someone who can predict my mood patterns and proactively take care of my mental health. This app didn&apos;t just change my journaling - it changed my life.&rdquo;
             </blockquote>
             <div className="flex items-center justify-center">
               <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 mr-4"></div>
@@ -476,7 +476,7 @@ export default function Home() {
             <div className="card-cinematic p-8 cinematic-entry">
               <div className="text-4xl mb-4">🚫</div>
               <h3 className="text-xl font-bold mb-4">No Data Mining</h3>
-              <p className="text-white/70">We don't read, analyze, or profit from your personal thoughts. Ever.</p>
+              <p className="text-white/70">We don&apos;t read, analyze, or profit from your personal thoughts. Ever.</p>
             </div>
             
             <div className="card-cinematic p-8 cinematic-entry">

@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
                 Changes to This Policy
               </h2>
               <p className="mb-4">
-                We may update this Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+                We may update this Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page and updating the &ldquo;Last updated&rdquo; date.
               </p>
             </section>
           </div>
