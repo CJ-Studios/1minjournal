@@ -53,27 +53,40 @@ export default function Home() {
       </div>
 
       {/* Cinematic Hero Section */}
-      <section className="cinematic-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+      <section className="cinematic-bg min-h-[55vh] flex items-center justify-center relative overflow-hidden pt-8">
         <div className="absolute inset-0">
           <div className="parallax-float absolute top-20 left-10 w-32 h-32 bg-blue-500/10 rounded-full blur-xl"></div>
           <div className="parallax-float absolute top-40 right-20 w-48 h-48 bg-purple-500/10 rounded-full blur-2xl"></div>
           <div className="parallax-float absolute bottom-20 left-1/3 w-40 h-40 bg-pink-500/10 rounded-full blur-xl"></div>
         </div>
         
+        
         <div className="relative z-10 text-center text-white px-6 max-w-7xl mx-auto">
-          <div className="mb-12 cinematic-entry">
-            <h1 className="text-cinematic text-glow mb-8">
+          <div className="mb-4 cinematic-entry relative">
+            <h1 className="text-cinematic-hero text-glow mb-4">
               Reflect Daily<br/>
               <span className="text-blue-300">with the 60-Second Journaling App</span>
             </h1>
             
-            <p className="text-cinematic-sub text-white/90 max-w-4xl mx-auto mb-12">
-              Big Reflections. Small Commitment: 60 Seconds. Build life-changing self-awareness in less time than brushing your teeth – one meaningful sentence that captures your entire day.
-            </p>
+            {/* Handwritten annotation next to main title */}
+            <div className="handwritten-annotation absolute top-0 right-0 transform translate-x-16 translate-y-8 opacity-0 animate-fadeInFloat" style={{animationDelay: '5.5s'}}>
+              <div className="annotation-text text-red-400">
+                literally takes less time<br/>
+                than brushing your teeth.
+              </div>
+            </div>
+            
+            {/* Animated subtitle with staggered appearance */}
+            <div className="text-cinematic-sub-hero text-white/90 max-w-4xl mx-auto mb-4 relative">
+              <div className="subtitle-animation">
+                <span className="small-commitments animate-fadeInUp" style={{opacity: 0, animationDelay: '2.5s'}}>Small commitments, </span>
+                <span className="big-reflections opacity-0 animate-fadeInType" style={{animationDelay: '4s'}}>Big reflections</span>
+              </div>
+            </div>
           </div>
 
           {/* Scrolling Journal Cards */}
-          <div className="journal-scroll-container mb-16 cinematic-entry">
+          <div className="journal-scroll-container mb-6 cinematic-entry">
             <div className="journal-cards-row">
               {/* First set of cards */}
               <div className="journal-card">
@@ -255,18 +268,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center cinematic-entry">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center cinematic-entry">
             <a
               href="#"
-              className="btn-cinematic text-white px-12 py-5 rounded-2xl font-bold text-xl"
+              className="btn-cinematic text-white px-10 py-4 rounded-xl font-bold text-lg"
             >
-              Unlock Your Mind - iPhone
+              Start Reflecting - iPhone
             </a>
             <a
               href="#"
-              className="btn-ghost text-white px-12 py-5 rounded-2xl font-bold text-xl"
+              className="btn-ghost text-white px-10 py-4 rounded-xl font-bold text-lg"
             >
-              Unlock Your Mind - Android
+              Start Reflecting - Android
             </a>
           </div>
 
@@ -476,7 +489,7 @@ export default function Home() {
       </section>
 
       {/* Final Call to Action - Cinematic */}
-      <section className="cinematic-bg min-h-screen flex items-center justify-center relative">
+      <section className="cinematic-bg min-h-[70vh] flex items-center justify-center relative">
         <div className="text-center text-white px-6 max-w-5xl mx-auto">
           <h2 className="text-cinematic mb-8 dramatic-scale">
             Stop Overthinking.<br/>
