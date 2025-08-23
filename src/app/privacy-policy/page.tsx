@@ -4,7 +4,7 @@ export default function PrivacyPolicy() {
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Privacy Policy
+            Privacy Policy for 1 Min Journal
           </h1>
           
           <div className="prose max-w-none text-gray-700 leading-relaxed">
@@ -14,55 +14,115 @@ export default function PrivacyPolicy() {
 
             <section className="mb-8">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                Introduction
+              </h2>
+              <p className="mb-4">
+                1 Min Journal (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) respects the privacy of our users (&ldquo;user&rdquo; or &ldquo;you&rdquo;). This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application 1 Min Journal. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not use the application.
+              </p>
+              <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-4">
+                <p className="font-semibold text-blue-800">
+                  IMPORTANT: Your journal entries are stored locally on your device only. We do not have access to your personal journal content.
+                </p>
+              </div>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">
                 Information We Collect
               </h2>
               <p className="mb-4">
-                1 Min Journal is committed to protecting your privacy. We collect minimal information necessary to provide our journaling services.
+                We collect minimal information to provide and improve our service:
               </p>
+              
+              <div className="mb-6">
+                <h3 className="text-lg font-medium text-gray-800 mb-2">Journal Content</h3>
+                <p className="mb-4">
+                  Your journal entries are stored locally on your device only. We do not collect, access, or store your personal journal content on our servers.
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h3 className="text-lg font-medium text-gray-800 mb-2">Analytics Data</h3>
+                <p className="mb-2">We may collect basic, anonymous usage analytics such as:</p>
+                <ul className="list-disc pl-6 mb-4">
+                  <li>App usage patterns and retention metrics</li>
+                  <li>Device information (device type, operating system version)</li>
+                  <li>App performance data and crash reports</li>
+                  <li>General usage statistics (number of entries created, feature usage)</li>
+                </ul>
+                <p className="mb-4">
+                  This analytics data is anonymized and cannot be used to identify you personally or access your journal content.
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h3 className="text-lg font-medium text-gray-800 mb-2">Device Permissions</h3>
+                <p className="mb-2">We may request access to:</p>
+                <ul className="list-disc pl-6 mb-4">
+                  <li>Device storage (to save your journal entries locally on your device)</li>
+                  <li>Push notifications (to send you reminders if enabled)</li>
+                </ul>
+                <p className="mb-4">
+                  You can change these permissions in your device settings at any time.
+                </p>
+              </div>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                How We Use Your Information
+              </h2>
+              <p className="mb-2">We use the limited information we collect to:</p>
               <ul className="list-disc pl-6 mb-4">
-                <li>Journal entries and personal reflections (stored locally on your device)</li>
-                <li>Basic usage analytics to improve the app experience</li>
-                <li>Account information if you choose to create an account for sync features</li>
+                <li>Improve the app&rsquo;s performance and user experience</li>
+                <li>Analyze usage patterns to enhance app features</li>
+                <li>Send push notifications for reminders (if you enable this feature)</li>
+                <li>Respond to technical support requests</li>
+                <li>Comply with legal obligations if required by law</li>
+              </ul>
+              <p className="mb-4">
+                We do not use your information for advertising, marketing, or any commercial purposes beyond improving the app itself.
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                Information Sharing and Disclosure
+              </h2>
+              <p className="mb-4">
+                We do not sell, trade, or otherwise transfer your information to third parties. Your journal content remains private and stored only on your device.
+              </p>
+              <p className="mb-2">Limited situations where we may share anonymous analytics data:</p>
+              <ul className="list-disc pl-6 mb-4">
+                <li><strong>Legal Requirements:</strong> If required by law, we may disclose anonymous usage information to respond to legal process or protect rights and safety.</li>
+                <li><strong>Service Providers:</strong> We may share anonymous analytics data with third-party service providers who help us analyze app performance. These providers are contractually obligated to keep information confidential.</li>
+              </ul>
+              <div className="bg-green-50 border-l-4 border-green-400 p-4 mb-4">
+                <p className="font-semibold text-green-800">
+                  Important: We never share your personal journal content, as we do not have access to it. All journal entries remain private and stored locally on your device.
+                </p>
+              </div>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                Your Privacy Rights
+              </h2>
+              <ul className="list-disc pl-6 mb-4">
+                <li><strong>Data Control:</strong> Since your journal entries are stored locally on your device, you have complete control over your personal data. You can delete the app and all associated data at any time by uninstalling the application.</li>
+                <li><strong>Analytics Opt-out:</strong> While we collect minimal anonymous analytics, you can contact us to discuss analytics data collection.</li>
+                <li><strong>Push Notifications:</strong> You can enable or disable push notifications at any time in your device settings or within the app.</li>
+                <li><strong>Data Portability:</strong> Your journal data is stored in standard formats on your device and can be backed up using your device&rsquo;s standard backup mechanisms.</li>
               </ul>
             </section>
 
             <section className="mb-8">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                How We Protect Your Data
+                Children&rsquo;s Privacy
               </h2>
               <p className="mb-4">
-                Your privacy is our top priority. We implement industry-standard security measures:
+                We do not knowingly collect personal information from children under the age of 13. If you become aware that a child has provided us with personal information, please contact us and we will delete such information from our records.
               </p>
-              <ul className="list-disc pl-6 mb-4">
-                <li>End-to-end encryption for all journal entries</li>
-                <li>Local-first storage - your data stays on your device</li>
-                <li>Zero-knowledge architecture - we cannot read your entries</li>
-                <li>Optional cloud backup with military-grade encryption</li>
-              </ul>
-            </section>
-
-            <section className="mb-8">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                Data Sharing
-              </h2>
-              <p className="mb-4">
-                We do not sell, trade, or share your personal data with third parties. Your journal entries remain private and are never accessed by our team or any external parties.
-              </p>
-            </section>
-
-            <section className="mb-8">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                Your Rights
-              </h2>
-              <p className="mb-4">
-                You have complete control over your data:
-              </p>
-              <ul className="list-disc pl-6 mb-4">
-                <li>Delete your account and all associated data at any time</li>
-                <li>Export your journal entries in standard formats</li>
-                <li>Opt out of analytics and usage tracking</li>
-                <li>Request information about data we may have collected</li>
-              </ul>
             </section>
 
             <section className="mb-8">
@@ -70,11 +130,10 @@ export default function PrivacyPolicy() {
                 Contact Us
               </h2>
               <p className="mb-4">
-                If you have any questions about this Privacy Policy or our data practices, please contact us at:
+                If you have questions or comments about this Privacy Policy, please contact us at:
               </p>
               <p className="mb-4">
-                Email: privacy@1minjournal.com<br/>
-                Address: [Company Address]
+                <strong>Email:</strong> purpleturtledev@gmail.com
               </p>
             </section>
 
@@ -83,7 +142,25 @@ export default function PrivacyPolicy() {
                 Changes to This Policy
               </h2>
               <p className="mb-4">
-                We may update this Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page and updating the &ldquo;Last updated&rdquo; date.
+                We reserve the right to make changes to this Privacy Policy at any time. We will alert you about any changes by updating the &ldquo;Last Updated&rdquo; date of this Privacy Policy and through app store updates. Any changes will be effective immediately upon posting the updated Privacy Policy.
+              </p>
+              <p className="mb-4">
+                You are encouraged to periodically review this Privacy Policy to stay informed of updates. Your continued use of the application after any changes constitutes acceptance of the revised Privacy Policy.
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                Legal Compliance
+              </h2>
+              <p className="mb-4">
+                This privacy policy is designed to comply with general privacy requirements. Users in specific jurisdictions (such as EU under GDPR, California under CCPA, etc.) may have additional rights under applicable law. We are committed to honoring all applicable privacy rights and regulations.
+              </p>
+              <p className="mb-4">
+                For users in the European Union, you have additional rights including the right to access, rectify, erase, restrict processing, data portability, and to object to processing of your personal data.
+              </p>
+              <p className="mb-4">
+                Since we collect minimal data and store journal content locally on your device, most data subject requests can be fulfilled by the user directly through the app or device settings.
               </p>
             </section>
           </div>
