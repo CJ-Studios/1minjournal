@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: process.env.NODE_ENV === 'production' ? '/1minjournal' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/1minjournal' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/1minjournal/' : '',
+  distDir: 'out',
 };
 
 export default nextConfig;
